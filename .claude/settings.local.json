@@ -1,28 +1,6 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install:*)",
-      "Bash(gcloud projects add-iam-policy-binding:*)",
-      "WebFetch(domain:bedtime-stories.ddevlabs.com)",
-      "Bash(dig:*)",
-      "Read(//Users/paschalisdimitriou/Desktop/Repositories/Personal/Deep-Law/**)",
-      "mcp__gemini-cli__ask-gemini",
-      "mcp__sequential-thinking__sequentialthinking",
-      "Bash(npm create:*)",
-      "Bash(tree:*)",
-      "Bash(find:*)",
-      "Bash(lsof:*)",
-      "Bash(xargs kill:*)",
-      "Bash(cd:*)",
-      "Bash(gcloud projects get-iam-policy:*)",
-      "Bash(cat:*)",
-      "WebFetch(domain:www.bedtimestory.ai)",
-      "WebFetch(domain:storyspark.ai)",
-      "WebSearch",
-      "Bash(curl:*)",
-      "WebFetch(domain:storybeforesleep.com)",
-      "WebFetch(domain:github.com)",
-      "WebFetch(domain:elevenlabs.io)"
     ],
     "deny": [
       "Read(*.csv)",
