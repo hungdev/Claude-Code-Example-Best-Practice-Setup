@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Environment
+.env
+backend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Claude settings
+.claude/
+*.local.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.astro/
+
+# Firebase
+frontend/.firebase/
+
+# Frontend logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Google Cloud credentials
+**/service-account-key.json
+**/*-service-account-key.json
+
+# Terraform
+*.tfvars
+.terraform/
+.terraform.lock.hcl
