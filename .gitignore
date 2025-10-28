@@ -14,9 +14,6 @@ backend/.env
 # OS
 .DS_Store
 
-# Claude settings
-.claude/
-*.local.json
 
 # Frontend
 frontend/node_modules/
